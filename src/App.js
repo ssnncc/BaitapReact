@@ -3,6 +3,7 @@ import './App.css';
 import BaitapLayout from './components/BaiTapThucHanhLayout/BaitapLayout';
 import DSMatkinh from './state/BaitapChonMatKinh/DSMatkinh';
 import BaitapGioHang from './Props/BaitapGioHang/BaitapGioHang';
+import BaiTapQuanLyNguoiDung from './BaiTapQuanLyNguoiDung/BaiTapQuanLyNguoiDung';
 
 
 
@@ -13,7 +14,9 @@ function App() {
     //Đây là của bài tập 2: state map
     //  <DSMatkinh/>
     //ĐÂY là bài tập giỏ hàng
-    <BaitapGioHang/>
+    // <BaitapGioHang/>
+    //ĐÂY LÀ BÀI TẬP Redux QUẢN LÝ NGƯỜI DÙNG
+    <BaiTapQuanLyNguoiDung/>
   );
 }
 
