@@ -4,6 +4,7 @@ import BaitapLayout from './components/BaiTapThucHanhLayout/BaitapLayout';
 import DSMatkinh from './state/BaitapChonMatKinh/DSMatkinh';
 import BaitapGioHang from './Props/BaitapGioHang/BaitapGioHang';
 import BaiTapQuanLyNguoiDung from './BaiTapQuanLyNguoiDung/BaiTapQuanLyNguoiDung';
+import BaiTapReactAPI from './BaiTapReactAPI/BaiTapReactAPI';
 
 
 
@@ -16,7 +17,9 @@ function App() {
     //ĐÂY là bài tập giỏ hàng
     // <BaitapGioHang/>
     //ĐÂY LÀ BÀI TẬP Redux QUẢN LÝ NGƯỜI DÙNG
-    <BaiTapQuanLyNguoiDung/>
+    // 
+    // Đây là bài tập React API 
+    <BaiTapReactAPI/>
   );
 }
 
